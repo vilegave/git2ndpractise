@@ -27,6 +27,11 @@ Status output does not show you any information regarding the committed project 
 git log 
  (use "git rm --cached <file>..." to unstage
 --
+Obtain the git remote add URL for the remote repository and add credentials if needed. 
+Run the git remote add origin command from your local repository with the --set-upstream and the name of the active branch to push.
+
+---------------------------
+
 Jekins webhook
 jekn=ins pipeline
 IUntegrating artifcatory with jenkins
