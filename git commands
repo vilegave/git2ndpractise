@@ -21,6 +21,7 @@ DVCS (git , mercurial) - it has capability  for saving files at local and remote
 wenr ever file has modifeid need to git add filename and then commmit wil work or git restor to discrad chnages)
 The git init -->once u do wills e .git folder , initilise file i.e start tracking of file 
 
+git  init- create repo and intitilising the local repo
 git add - add fils to staging aread 
 command creates a new Git repository. It can be used to convert an existing, 
 unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, 
@@ -41,6 +42,11 @@ Run the git remote add origin command from your local repository with the --set-
 ---------------------------
 Master bracnh - by default branch os  masterbracnh and every commmi head pointing to latest commmit.
 otehr than masterbranch have to creat manualy 
+-----
+syching - git pull workin cloned reposetrie  for ex i have cloned remote repostired and want to upto date file then git pull origin master
+git push- used to push locally modified files to remote repo
+--------------
+Paralle developement - using git branch
 
 
 Jekins webhook
